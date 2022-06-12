@@ -9,6 +9,8 @@
 3. 	Lacticaseibacillus chiayiensis
 4. 	Lactiplantibacillus pentosus
 5. 	Lactiplantibacillus paraplantarum
+## Распределение z-dna в геномах
+![stat](./images/stat.png)
 ## Статистика по геномам
 
 | species |gene length |gene count |genome length |gene part |z-dna count |z-dna length |
@@ -30,33 +32,42 @@
 ### Продукт генома
 | Номер кластера | Продукт гена |
 | --- | --- |
-| 20|replicative DNA helicase |
-| 39|conserved hypothetical protein |
-| 67|PTS system cellobiose-specific IIC component |
-| 80|fructose-bisphosphate aldolase |
+|737|phosphocarrier protein HPr|
+|864|ABC transporter ATP-binding component|
+|885|50S ribosomal protein L11|
+|897|truncated oxidoreductase|
+|942|50S ribosomal protein L18|
+|952|50S ribosomal protein L22|
 ### Число z-dna в промотере
 ||casei|chiayiensis|paracasei|pentosus|paraplantarum
 |---|---|---|---|---|---|
-|20|1|1|1|0|0|
-|39|1|1|1|0|0|
-|67|0|0|1|3|1|
-|80|1|1|1|0|0|
+|737|1|1|2|1|1|
+|864|2|2|2|1|1|
+|885|1|1|1|1|1|
+|897|2|1|1|1|1|
+|942|2|2|2|2|2|
+|952|1|1|1|1|1|
 
 ### Число z-dna в гене
 ||casei|chiayiensis|paracasei|pentosus|paraplantarum
 |---|---|---|---|---|---|
-|20|1|1|1|2|2|
-|39|0|0|0|0|0|
-|67|1|1|1|2|4|
-|80|0|0|0|0|0|
+|737|0|0|0|0|0|
+|864|2|0|1|0|1|
+|885|0|0|0|0|0|
+|897|1|1|3|0|2|
+|942|1|1|0|0|0|
+|952|0|0|0|0|0|
 
+### Макимальный z-score в промоутере
+||casei|chiayiensis|paracasei|pentosus|paraplantarum
+|---|---|---|---|---|---|
+|737|1078.1930|1078.1930|1078.1930|766.6232|766.6232|
+|864|13713.9900|13713.9900|13713.9900|1164.5200|1323.0540|
+|885|540.6191|1051.5070|540.6191|830.5338|830.5338|
+|897|2752.4470|650.9198|13713.9900|546.8554|883.5764|
+|942|1733.5030|1733.5030|1733.5030|2541.4120|2541.4120|
+|952|883.5764|883.5764|883.5764|731.2843|731.2843|
 ## Результат выравнивания белков
-![alignment1](./images/alignment1.png)
-
-![alignment2](./images/alignment2.png)
-
-![alignment3](./images/alignment3.png)
-
-![alignment4](./images/alignment4.png)
+Файлы с выравниванием находятся в папке data с расширением afa.
 ## Расположение промотерных z-dna относительно генов (в порядке представленном выше)
 ![align](./images/align.png)
