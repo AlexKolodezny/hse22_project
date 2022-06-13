@@ -71,3 +71,21 @@
 Файлы с выравниванием находятся в папке data с расширением afa.
 ## Расположение промотерных z-dna относительно генов (в порядке представленном выше)
 ![align](./images/align.png)
+
+# Бонус G-Quadruplex
+## Ссылка на ноутбук
+[https://colab.research.google.com/drive/1XPbbLXY1FzFw2MUD5M8j1aoeH2WPN8D6?usp=sharing](https://colab.research.google.com/drive/1XPbbLXY1FzFw2MUD5M8j1aoeH2WPN8D6?usp=sharing)
+
+## Статистика по расположению G квадруплексов
+![quadruplex](./images/quadruplex_stat.png)
+
+## Промоутеры с наличием G квадруплексов
+||casei|chiayiensis|paracasei|pentosus|paraplantarum
+|---|---|---|---|---|---|
+|31|0|0|0|0|1|
+|65|0|0|0|0|1|
+|73|0|0|1|0|0|
+|433|1|0|0|0|0|
+|569|1|0|0|0|0|
+
+Как можно заметить у нас нет гомологичных промоутеров с G квадруплексами.
